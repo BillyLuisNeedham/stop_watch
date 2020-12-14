@@ -1,23 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:stop_watch/stop_watch.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'StopWatch',
-    home: Home(),
+    home: FlutterStopWatch(),
   ));
 }
 
-class Home extends StatefulWidget {
-  @override
-  _HomeState createState() => _HomeState();
-}
 
-class _HomeState extends State<Home> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
 
 
